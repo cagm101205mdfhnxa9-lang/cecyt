@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f7ed;
+    color: #183c26;
+}
+
+header {
+    background: linear-gradient(135deg, #075b32, #168447);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #a30e20;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe28a;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.portada {
+    background: linear-gradient(#e4f5e5, #ffffff);
+}
+
+.portada img {
+    width: 250px;
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.escuela {
+    width: 80%;
+    max-width: 650px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #a30e20;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 750px;
+    margin: 10px auto;
+    line-height: 1.7;
+}
+
+form {
+    background: white;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #0002;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #a30e20;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #075b32;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #075b32;
+    margin: 20px;
+}
+
+footer {
+    background: #075b32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .escuela {
+        width: 100%;
+    }
+}

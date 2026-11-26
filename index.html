@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad en CECyTEM</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>🎄 ¡La Navidad llegó al CECyTEM! 🎄</h1>
+    <p>Una Navidad llena de alegría con el Grinch</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#comunidad">Comunidad</a>
+    <a href="#formulario">Formulario</a>
+</nav>
+
+<section id="inicio" class="portada">
+    <h2>¡Hasta el Grinch ama la Navidad!</h2>
+    <p>
+        En nuestra comunidad CECyTEM celebramos la unión,
+        la amistad y el espíritu navideño.
+    </p>
+    <img src="img/grinch.png" alt="El Grinch navideño">
+</section>
+
+<section id="comunidad">
+    <h2>💚 Nuestra comunidad CECyTEM</h2>
+    <p>
+        Somos estudiantes, docentes y personal educativo
+        que formamos una gran familia.
+        Esta Navidad queremos compartir momentos especiales,
+        alegría y buenos deseos.
+    </p>
+
+    <img src="img/escuela.jpg" alt="Nuestra escuela CECyTEM"
+         class="escuela">
+</section>
+
+<section id="formulario">
+    <h2>🎁 Comparte tu espíritu navideño</h2>
+    <p>Completa el siguiente formulario.</p>
+
+    <form id="formNavidad">
+        <label>Nombre completo:</label>
+        <input type="text" id="nombre"
+               placeholder="Escribe tu nombre" required>
+
+        <label>Grupo:</label>
+        <input type="text" id="grupo"
+               placeholder="Ej. 301" required>
+
+        <label>¿Qué es lo que más te gusta de la Navidad?</label>
+        <select id="gusto" required>
+            <option value="">Selecciona una opción</option>
+            <option>Los regalos</option>
+            <option>La convivencia</option>
+            <option>La comida</option>
+            <option>Las vacaciones</option>
+            <option>El espíritu navideño</option>
+        </select>
+
+        <label>Escribe un mensaje navideño:</label>
+        <textarea id="mensaje"
+                  placeholder="Escribe tus buenos deseos..."
+                  required></textarea>
+
+        <button type="submit">Enviar respuesta 🎄</button>
+    </form>
+
+    <div id="resultado"></div>
+</section>
+
+<footer>
+    <p>💚 CECyTEM | Navidad 2026 🎅</p>
+    <p>Hecho con espíritu navideño por nuestra comunidad escolar.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
